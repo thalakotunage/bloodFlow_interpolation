@@ -2,7 +2,7 @@
 # author_email : thalakotunage@gmail.com
 # Created on Tue Apr 13 18:34:10 2021
 
-import glob # blobal environment
+import glob # global environment
 import os
 os.chdir(r'C:\Users\athalako\PycharmProjects\velocityProfile') # change the directory path to your working directory
 dataFiles = glob.glob('*.txt') # put the velocity values in the Excel file into .txt file and place it in your working
